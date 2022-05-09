@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Mahfod ? are you succeeded exercice ?",
+      "details": "I hope all is ok",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "title": "try an another right",
+      "details": "may be another success",
+      "complete": true
+    }
+  ]
+}

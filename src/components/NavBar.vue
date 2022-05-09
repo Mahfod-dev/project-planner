@@ -1,0 +1,27 @@
+<template>
+  <nav class="main-nav">
+    <router-link :to="{ name: 'home' }">Projects</router-link>
+    <router-link :to="{ name: 'addProject' }">Add a new project</router-link>
+  </nav>
+  <router-view />
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="scss">
+nav {
+  text-align: center;
+  margin: 40px auto;
+  a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    &.router-link-active {
+      border-bottom: 2px solid #00ce89;
+      padding-bottom: 4px;
+    }
+  }
+}
+</style>
